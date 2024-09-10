@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            Quest23.Quest();
+            NewQuests.Quest24.Quest();
             //Quest1 - Console usage
             //Quest2 - Switch case
             //Quest3 - Switch case + if
@@ -31,6 +31,7 @@ namespace ConsoleApp1
             //Quest21 - Object oriented programming
             //Quest22 - Object oriented programming
             //Quest23 - Object oriented programming (Tic tac toe game)
+            //NewQuests.Quest24 - Inheritance
 
         }
     }

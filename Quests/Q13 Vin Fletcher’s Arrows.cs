@@ -27,25 +27,22 @@ namespace Quests.Quests
             Console.WriteLine(totalCost);
         }
     }
+    public class Arrow {
+        public enum Arrowhead { steel = 10, wood = 3, obsidian = 5 };
+        public enum Fletching { plastic = 10, turkeyFeathers = 5, gooseFeathers = 3 }
+        public double _shaft = 0.05;
 
-}
+        public double GetCost(string arrowhead, string fletching, double shaft) {
+            Arrowhead selectedArrowhead = (Arrowhead)Enum.Parse(typeof(Arrowhead), arrowhead);
+            Fletching selectedFletching = (Fletching)Enum.Parse(typeof(Fletching), fletching);
 
-public class Arrow
-{
-    public enum Arrowhead { steel = 10, wood = 3, obsidian = 5 };
-    public enum Fletching { plastic = 10, turkeyFeathers = 5, gooseFeathers = 3 }
-    public double _shaft = 0.05;
+            double cost1 = (int)selectedArrowhead;
+            double cost2 = (int)selectedFletching;
+            double cost3 = shaft * _shaft;
 
-    public double GetCost(string arrowhead, string fletching, double shaft)
-    {
-        Arrowhead selectedArrowhead = (Arrowhead)Enum.Parse(typeof(Arrowhead), arrowhead);
-        Fletching selectedFletching = (Fletching)Enum.Parse(typeof(Fletching), fletching);
+            return cost1 + cost2 + cost3;
+        }
 
-        double cost1 = (int)selectedArrowhead;
-        double cost2 = (int)selectedFletching;
-        double cost3 = shaft * _shaft;
-
-        return cost1 + cost2 + cost3;
     }
-
 }
+
