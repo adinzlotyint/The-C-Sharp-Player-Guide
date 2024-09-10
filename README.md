@@ -52,5 +52,7 @@ The list below will be updated regularly as I complete new quests from the book:
     Quest22 - Object oriented programming
     Quest23 - Object oriented programming (Tic tac toe game)
     Quest24 - Inheritance
+    Quest25 - Polymorphism
+    Quest26 - Polymorphism
     
 ---
