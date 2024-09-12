@@ -56,5 +56,6 @@ The list below will be updated regularly as I complete new quests from the book:
     Quest26 - Polymorphism
     Quest27 - Interfaces
     Quest28 - Records
+    Quest29 - Generics<T>
     
 ---
