@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            Quest29.Quest();
+            Quest30.Quest();
             //Quest1 - Console usage
             //Quest2 - Switch case
             //Quest3 - Switch case + if
@@ -37,6 +37,7 @@ namespace ConsoleApp1
             //NewQuests.Quest27 - Interfaces
             //Quest28 - Records
             //Quest29 - Generics
+            //Quest30 - Object oriented programming (Hunt the Wumpus game)
         }
     }
 }
