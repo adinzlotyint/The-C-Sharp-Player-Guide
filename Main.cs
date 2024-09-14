@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            Quest30.Quest();
+            Quest31.Quest();
             //Quest1 - Console usage
             //Quest2 - Switch case
             //Quest3 - Switch case + if
@@ -17,7 +17,7 @@ namespace ConsoleApp1
             //Quest7 - Foreach loop
             //Quest8 - Custom methods
             //Quest9 - Recursive methods
-            //Quest10 - All above
+            //Quest10 - All above (Hunting the Manticore game)
             //Quest11 - Enumerators
             //Quest12 - Tuples and enumerators
             //Quest13 - Classes
@@ -38,6 +38,8 @@ namespace ConsoleApp1
             //Quest28 - Records
             //Quest29 - Generics
             //Quest30 - Object oriented programming (Hunt the Wumpus game)
+            //Quest31 - Random (Hunting the Manticore game - singleplayer/multiplayer)
+            //Quest32
         }
     }
 }
