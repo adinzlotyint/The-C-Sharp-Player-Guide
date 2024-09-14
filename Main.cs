@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            Quest31.Quest();
+            NewQuests.Quest32.Quest();
             //Quest1 - Console usage
             //Quest2 - Switch case
             //Quest3 - Switch case + if
@@ -39,7 +39,7 @@ namespace ConsoleApp1
             //Quest29 - Generics
             //Quest30 - Object oriented programming (Hunt the Wumpus game)
             //Quest31 - Random (Hunting the Manticore game - singleplayer/multiplayer)
-            //Quest32
+            //Quest32 - TimeSpan + DateTime (Hunt the Wumpus game - with timer)
         }
     }
 }
