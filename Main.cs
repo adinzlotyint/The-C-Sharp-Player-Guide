@@ -1,13 +1,11 @@
-﻿using Quests.Quests;
-
-
-namespace ConsoleApp1
+﻿namespace ConsoleApp
 {
     class Program
     {
         static void Main()
         {
-            NewQuests.Quest32.Quest();
+            Quest1.Quest.Start();
+            //In order to run one of the below programs, change the namespace in above line to one of the following:
             //Quest1 - Console usage
             //Quest2 - Switch case
             //Quest3 - Switch case + if
@@ -31,15 +29,16 @@ namespace ConsoleApp1
             //Quest21 - Object oriented programming
             //Quest22 - Object oriented programming
             //Quest23 - Object oriented programming (Tic tac toe game)
-            //NewQuests.Quest24 - Inheritance
-            //NewQuests2.Quest25 - Polymorphism
+            //Quest24 - Inheritance
+            //Quest25 - Polymorphism
             //Quest26 - Polymorphism
-            //NewQuests.Quest27 - Interfaces
+            //Quest27 - Interfaces
             //Quest28 - Records
             //Quest29 - Generics
             //Quest30 - Object oriented programming (Hunt the Wumpus game)
             //Quest31 - Random (Hunting the Manticore game - singleplayer/multiplayer)
             //Quest32 - TimeSpan + DateTime (Hunt the Wumpus game - with timer)
+            //Quest33 - List
         }
     }
 }

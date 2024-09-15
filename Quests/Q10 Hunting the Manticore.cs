@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest10
 {
-    public class Quest10
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
 
             //int[] a = new int[] { 1, 2, 3 };

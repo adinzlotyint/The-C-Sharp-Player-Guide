@@ -10,11 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace NewQuests
+namespace Quest27
 {
-    public class Quest27
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Robot robot = new();
             Console.WriteLine("Give your commands");

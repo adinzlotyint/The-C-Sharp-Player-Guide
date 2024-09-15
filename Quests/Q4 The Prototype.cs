@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quests.Quests
+namespace Quest4
 {
-    internal class Quest4
+    internal class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             int pilot;
             int hunter;

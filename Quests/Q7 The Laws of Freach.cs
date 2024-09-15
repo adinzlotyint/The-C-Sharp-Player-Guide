@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quests.Quests
+namespace Quests7
 {
-    internal class Quest7
+    internal class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             int[] numbers = { 12, 25, 38, -4, -51, 16, 87, -81, 9, 100 };
 

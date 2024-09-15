@@ -7,11 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest20
 {
-    public class Quest20
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Card[] deck = Card.CreateDeck();
             Random r = new Random();

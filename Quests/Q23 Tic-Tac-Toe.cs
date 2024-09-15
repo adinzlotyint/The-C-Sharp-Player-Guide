@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest23
 {
-    public class Quest23
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Game game = new Game();
             Game.Player playerOne = game.CreatePlayer(Signs.X);

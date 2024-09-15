@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest17
 {
-    public class Quest17
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             AsteroidsGame game = new AsteroidsGame();
             game.Run();

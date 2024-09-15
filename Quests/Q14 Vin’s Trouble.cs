@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest14
 {
-    public class Quest14
+    public class Quest
     {
 
-        public static void Quest()
+        public static void Start()
         {
 
             ArrowFixed purchase = new();

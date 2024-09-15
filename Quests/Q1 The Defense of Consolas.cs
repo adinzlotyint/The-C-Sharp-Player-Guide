@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quests.Quests
+namespace Quest1
 {
-    internal class Quest1
+    class Quest
     {
         struct Coordinates
         {
             public int row;
             public int col;
         }
-        public static void Quest()
+        public static void Start()
         {
             bool repeat = true;
             int row = 0;

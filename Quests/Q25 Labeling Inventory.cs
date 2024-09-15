@@ -8,9 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace NewQuests2 {
-    public class Quest25 {
-        public static void Quest() {
+namespace Quest25 
+{
+    public class Quest 
+    {
+        public static void Start() {
             Console.WriteLine("You are creating a pack. Please indicate the max capacity:");
             int maxItems = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Please indicate the max weight:");

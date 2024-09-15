@@ -9,11 +9,10 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Methods;
-using NewQuests;
 
-namespace Quests.NewQuests {
-    public class Quest33 {
-        public static void Quest() {
+namespace Quest33 {
+    public class Quest {
+        public static void Start() {
             Robotx robot = new();
             Console.WriteLine("Give your commands");
             string command;

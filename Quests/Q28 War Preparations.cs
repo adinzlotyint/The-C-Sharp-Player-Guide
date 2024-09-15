@@ -10,11 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests 
+namespace Quest28
    {
-    public class Quest28
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Sword originalSword = new Sword(10, 2, Material.Iron, Gemstone.Empty);
             Sword firstSword = originalSword with { material = Material.Binarium, gemstone = Gemstone.Sapphire };

@@ -6,12 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest15
 {
-    public class Quest15
+    public class Quest
     {
 
-        public static void Quest()
+        public static void Start()
         {
             Arrowa purchase = new();
             Console.WriteLine("Set the arrowhead:");

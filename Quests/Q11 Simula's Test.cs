@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest11
 {
-    public class Quest11
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Chest chest = Chest.Locked; //enum
             bool checkAnswer;

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quests.Quests
+namespace Quest5
 {
-    internal class Quest5
+    internal class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             const int fireCanon = 3;
             const int electricCanon = 5;

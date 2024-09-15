@@ -10,11 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests 
+namespace Quest30
    {
-    public class Quest30
+    public class Quest
     {
-        public static void Quest() {
+        public static void Start() {
             bool success = false;
             bool check;
             Console.WriteLine("Select map size (use numbers):\n(1) Small (4x4)\n(2) Medium (6x6) \n(3) Large (8x8)");

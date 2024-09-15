@@ -4,14 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Quests.Quests.Quest31;
-using static System.Net.Mime.MediaTypeNames;
 
-namespace Quests.Quests
+namespace Quest31
 {
-    internal class Quest31
+    internal class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Game game;
             string response;
@@ -38,6 +36,7 @@ namespace Quests.Quests
                 Manticore manticore = new(10, _manticorePosition);
                 City city = new(15);
                 int damage; int canonRange;
+                Console.Clear();
                 do {
                     _currTurn++;
                     damage = GetDamage(_currTurn);

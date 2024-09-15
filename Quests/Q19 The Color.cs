@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest19
 {
-    public class Quest19
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Color test1 = new Color(100, 0, 100);
             Color test4 = Color.Red;

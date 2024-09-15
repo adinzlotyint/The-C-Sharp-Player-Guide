@@ -7,13 +7,12 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Methods;
-using static Quests.Quests.RobotCommand;
 
-namespace Quests.Quests
+namespace Quest26
 {
-    public class Quest26
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
 
             Robot robot = new();
@@ -22,12 +21,12 @@ namespace Quests.Quests
             for (int i = 0; i<3; i++) {
                 command = Console.ReadLine();
                 RobotCommand newCommand = command switch {
-                    "on" => new OnCommand(),
-                    "off" => new OffCommand(),
-                    "north" => new NorthCommand(),
-                    "south" => new SouthCommand(),
-                    "east" => new EastCommand(),
-                    "west" => new WestCommand(),
+                    "on" => new Quest26.RobotCommand.OnCommand(),
+                    "off" => new Quest26.RobotCommand.OffCommand(),
+                    "north" => new Quest26.RobotCommand.NorthCommand(),
+                    "south" => new Quest26.RobotCommand.SouthCommand(),
+                    "east" => new Quest26.RobotCommand.EastCommand(),
+                    "west" => new Quest26.RobotCommand.WestCommand(),
                 };
                 robot.Commands[i] = newCommand;
             }

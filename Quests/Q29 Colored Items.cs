@@ -10,11 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests 
+namespace Quest29
    {
-    public class Quest29
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             ColoredItem<Swordx> sword = new ColoredItem<Swordx>(new Swordx(), ConsoleColor.Blue);
             ColoredItem<Bow> bow = new ColoredItem<Bow>(new Bow(), ConsoleColor.Red);

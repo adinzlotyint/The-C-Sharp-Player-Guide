@@ -60,5 +60,6 @@ The list below will be updated regularly as I complete new quests from the book:
     Quest30 - Object oriented programming (Hunt the Wumpus game)
     Quest31 - Random (Hunting the Manticore game - for single player)
     Quest32 - TimeSpan + DateTime (Hunt the Wumpus game - with timer)
+    Quest33 - List
 
 ---

@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest9
 {
-    public class Quest9
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
 
             for (int x = 10; x > 0; x--)

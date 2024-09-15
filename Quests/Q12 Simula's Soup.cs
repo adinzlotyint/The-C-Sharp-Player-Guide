@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest12
 {
-    public class Quest12
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             (Food Food, MainIngredient Main, Seasoning Seasoning) dish;
             string answer;

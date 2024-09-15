@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Methods;
 
-namespace Quests.Quests
+namespace Quest18
 {
-    public class Quest18
+    public class Quest
     {
-        public static void Quest()
+        public static void Start()
         {
             Point punkt1 = new();
             Point punkt2 = new(2, 3);
