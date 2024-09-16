@@ -1,44 +1,50 @@
-﻿namespace ConsoleApp
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+using System.Xml.Linq;
+using System;
+
+namespace ConsoleApp
 {
     class Program
     {
         static void Main()
         {
-            Quest1.Quest.Start();
-            //In order to run one of the below programs, change the namespace in above line to one of the following:
-            //Quest1 - Console usage
-            //Quest2 - Switch case
-            //Quest3 - Switch case + if
-            //Quest4 - Do while
-            //Quest5 - For loop
-            //Quest6 - Arrays
-            //Quest7 - Foreach loop
-            //Quest8 - Custom methods
-            //Quest9 - Recursive methods
-            //Quest10 - All above (Hunting the Manticore game)
-            //Quest11 - Enumerators
-            //Quest12 - Tuples and enumerators
-            //Quest13 - Classes
-            //Quest14 - Classes accessibilities
-            //Quest15 - Properties
-            //Quest16 - Static methods
-            //Quest17 - Object oriented programming
-            //Quest18 - Object oriented programming
-            //Quest19 - Object oriented programming
-            //Quest20 - Object oriented programming
-            //Quest21 - Object oriented programming
-            //Quest22 - Object oriented programming
-            //Quest23 - Object oriented programming (Tic tac toe game)
-            //Quest24 - Inheritance
-            //Quest25 - Polymorphism
-            //Quest26 - Polymorphism
-            //Quest27 - Interfaces
-            //Quest28 - Records
-            //Quest29 - Generics
-            //Quest30 - Object oriented programming (Hunt the Wumpus game)
-            //Quest31 - Random (Hunting the Manticore game - singleplayer/multiplayer)
-            //Quest32 - TimeSpan + DateTime (Hunt the Wumpus game - with timer)
-            //Quest33 - List
+            Quest36.Quest.Start();
+            //In order to run one of the below programs, change the namespace in above line to one of the following:mt
+            //Quest1 - "The Defense of Consolas"(Console usage)
+            //Quest2 - "Buying Inventory"(Switch case)
+            //Quest3 - "Discounted Inventory"(Switch case + if)
+            //Quest5 - "The Magic Canon"(For loop)
+            //Quest6 - "The Replicator D'To"(Arrays)
+            //Quest7 - "The Laws of Freach"(Foreach loop)
+            //Quest8 - "Taking a Number"(Custom methods)
+            //Quest9 - "Countdown"(Recursive methods)
+            //Quest10 - "Hunting the Manticore"(All above)
+            //Quest11 - "Simula's Test"(Enumerators)
+            //Quest12 - "Simula's Soup"(Tuples and enumerators)
+            //Quest13 - "Vin Fletcher's Arrows"(Classes)
+            //Quest14 - "Vin's Trouble"(Classes accessibilities)
+            //Quest15 - "The Properties of Arrows"(Properties)
+            //Quest16 - "Arrow Factories"(Static methods)
+            //Quest17 - "Asteroids"(Object oriented programming)
+            //Quest18 - "The Point"(Object oriented programming)
+            //Quest19 - "The Color"(Object oriented programming)
+            //Quest20 - "The Card"(Object oriented programming)
+            //Quest21 - "The Locked Door"(Object oriented programming)
+            //Quest22 - "The Password Validator"(Object oriented programming)
+            //Quest23 - "Tic-Tac-Toe"(Object oriented programming(Tic tac toe game))
+            //Quest24 - "Packing Inventory"(Inheritance)
+            //Quest25 - "Labeling Inventory"(Polymorphism)
+            //Quest26 - "The Old Robot"(Polymorphism)
+            //Quest27 - "Robotic Interface"(Interfaces)
+            //Quest28 - "War Preparations"(Records)
+            //Quest29 - "Colored Items"(Generics<T>)
+            //Quest30 - "The Fountain of Objects"(Object oriented programming(Hunt the Wumpus game))
+            //Quest31 - "The Robot Pilot"(Random(Hunting the Manticore game - for single player))
+            //Quest32 - "Time in the Cavern"(TimeSpan + DateTime(Hunt the Wumpus game - with timer))
+            //Quest33 - "Lists of Commands"(List)
+            //Quest34 - "The Feud"(Namespaces)
+            //Quest35 - "Safer Number Crunching"(TryParse)
         }
     }
 }
