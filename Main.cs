@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Xml.Linq;
 using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp
 {
@@ -9,7 +10,7 @@ namespace ConsoleApp
     {
         static void Main()
         {
-            Quest36.Quest.Start();
+            Quest37.Quest.Start();
             //In order to run one of the below programs, change the namespace in above line to one of the following:mt
             //Quest1 - "The Defense of Consolas"(Console usage)
             //Quest2 - "Buying Inventory"(Switch case)
@@ -45,6 +46,8 @@ namespace ConsoleApp
             //Quest33 - "Lists of Commands"(List)
             //Quest34 - "The Feud"(Namespaces)
             //Quest35 - "Safer Number Crunching"(TryParse)
+            //Quest36 - "Better random"(Extension method)
+            //Quest37 - "Excepti’s Game"(Error handling and exceptions)
         }
     }
 }
