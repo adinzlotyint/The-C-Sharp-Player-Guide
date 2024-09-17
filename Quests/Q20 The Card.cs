@@ -14,11 +14,13 @@ namespace Quest20
         public static void Start()
         {
             Card[] deck = Card.CreateDeck();
-            Random r = new Random();
+            Random rnd = new Random();
             while (true)
             {
-                int rInt = r.Next(deck.Length);
-                Console.WriteLine($"{rInt} " + deck[rInt].GetCard());
+                Console.WriteLine(deck.Length);
+                Console.WriteLine(Array.IndexOf(deck, deck[^1]));
+                int randomValue = rnd.Next(deck.Length);
+                Console.WriteLine($"{randomValue} " + deck[randomValue].GetCard());
                 Console.ReadLine();
             }
         }
@@ -27,31 +29,29 @@ namespace Quest20
 
 public class Card
 {
-    public CardColor Color { get; set; }
-    public CardRank Rank { get; set; }
+    private CardColor _color;
+    private CardRank _rank;
 
-    public Card(CardColor col, CardRank ran)
+    public Card(CardColor color, CardRank rank)
     {
-        Color = col;
-        Rank = ran;
+        _color = color;
+        _rank = rank;
     }
 
-    public string GetCard() => $"{Color} {Rank}";
-
+    public string GetCard() => $"{_color} {_rank}";
     public static Card[] CreateDeck()
     {
         Card[] tempArray = new Card[56];
         int i = 0;
-        foreach (CardColor col in Enum.GetValues(typeof(CardColor)))
+        foreach (CardColor color in Enum.GetValues(typeof(CardColor)))
         {
-            foreach (CardRank ran in Enum.GetValues(typeof(CardRank)))
+            foreach (CardRank rank in Enum.GetValues(typeof(CardRank)))
             {
-                Debug.WriteLine(col);
-                Debug.WriteLine(ran);
-                tempArray[i] = new Card(col, ran);
+                Debug.WriteLine(color);
+                Debug.WriteLine(rank);
+                tempArray[i] = new Card(color, rank);
                 i++;
             }
-
         }
         return tempArray;
     }
