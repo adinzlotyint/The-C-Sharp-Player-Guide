@@ -65,5 +65,6 @@ The list below will be updated regularly as I complete new quests from the book:
     Quest35 - "Safer Number Crunching" (TryParse)
     Quest36 - "Better random" (Extension method)
     Quest37 - "Excepti’s Game" (Error handling and exceptions)
+    Quest38 - "The Sieve" (Delegates)
 
 ---
