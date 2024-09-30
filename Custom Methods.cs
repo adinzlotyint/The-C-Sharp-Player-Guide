@@ -28,5 +28,17 @@ namespace Methods {
             } while (isNumber == false);
             return number;
         }
+
+        public static int NumberInRange(int min, int max) {
+            bool isNumber = false;
+            int number;
+            do {
+                isNumber = Int32.TryParse(Console.ReadLine(), out number);
+                if (number < min || number > max) {
+                    isNumber = false;
+                }
+            } while (isNumber == false);
+            return number;
+        }
     }
 }

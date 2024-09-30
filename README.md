@@ -69,4 +69,5 @@ The list below will be updated regularly as I complete new quests from the book:
     Quest39 - "Charberry Trees"(Events)
     Quest40 - "The Lambda Sieve"(Lambda expression)
     Quest41 - "The Long Game"(Files manipulation)
+    Quest42 - "The Potion Masters of Pattern"(Pattern matching)
 ---
