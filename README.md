@@ -67,4 +67,6 @@ The list below will be updated regularly as I complete new quests from the book:
     Quest37 - "Excepti’s Game" (Error handling and exceptions)
     Quest38 - "The Sieve" (Delegates)
     Quest39 - "Charberry Trees"(Events)
+    Quest40 - "The Lambda Sieve"(Lambda expression)
+    Quest41 - "The Long Game"(Files manipulation)
 ---
