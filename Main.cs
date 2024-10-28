@@ -8,9 +8,9 @@ namespace ConsoleApp
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            Quest42.Quest.Start();
+            Quest43.Quest.Start();
             //In order to run one of the below programs, change the namespace in above line to one of the following:mt
             //Quest1 - "The Defense of Consolas"(Console usage)
             //Quest2 - "Buying Inventory"(Switch case)
@@ -53,6 +53,9 @@ namespace ConsoleApp
             //Quest40 - "The Lambda Sieve"(Lambda expression)
             //Quest41 - "The Long Game"(Files manipulation)
             //Quest42 - "The Potion Masters of Pattern"(Pattern matching)
+            //Quest43 - "Navigating Operand City"(OPERATOR OVERLOADING)
+            //Quest44 - "Indexing Operand City"(INDEXERS)
+
         }
     }
 }

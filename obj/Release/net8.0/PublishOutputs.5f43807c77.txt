@@ -1,0 +1,5 @@
+D:\Programowanie\C#\Quests\test\Quests.exe
+D:\Programowanie\C#\Quests\test\Quests.dll
+D:\Programowanie\C#\Quests\test\Quests.deps.json
+D:\Programowanie\C#\Quests\test\Quests.runtimeconfig.json
+D:\Programowanie\C#\Quests\test\Quests.pdb

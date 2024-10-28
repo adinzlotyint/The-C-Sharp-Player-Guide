@@ -1,0 +1,15 @@
+D:\Programowanie\C#\Quests\bin\Release\net8.0\Quests.exe
+D:\Programowanie\C#\Quests\bin\Release\net8.0\Quests.deps.json
+D:\Programowanie\C#\Quests\bin\Release\net8.0\Quests.runtimeconfig.json
+D:\Programowanie\C#\Quests\bin\Release\net8.0\Quests.dll
+D:\Programowanie\C#\Quests\bin\Release\net8.0\Quests.pdb
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.AssemblyInfoInputs.cache
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.AssemblyInfo.cs
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.csproj.CoreCompileInputs.cache
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.sourcelink.json
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.dll
+D:\Programowanie\C#\Quests\obj\Release\net8.0\refint\Quests.dll
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.pdb
+D:\Programowanie\C#\Quests\obj\Release\net8.0\Quests.genruntimeconfig.cache
+D:\Programowanie\C#\Quests\obj\Release\net8.0\ref\Quests.dll
